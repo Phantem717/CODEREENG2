@@ -310,8 +310,8 @@
                     <div class="Reason_Treatment">
                         <p>Reason for the Problem</p>
                     </div>
-                    <div class="IMG">
-                        <img src="Asset/Dead Code/DEADCODE.png" alt="">
+                    <div class="IMGDIV1">
+                        <img src="Asset/Divergent/DIVERGENT1.png" alt="">
                     </div>
                     <div class="Penjelasan">
                         Disini class Employee memiliki terlalu banyak tanggung jawab, seperti kalkulasi dan update Salary, perubahan department dan celebrasi Ulang Tahun, Sehingga nanti saat mengganti sebuah hal di class tersebut harus mengganti banyak hal juga di dalam classnya, membuat codenya susah untuk maintain, dimengerti dan diganti.Karena classnya memiliki terlalu banyak tanggung jawab. 
@@ -322,8 +322,8 @@
                         
                         <p>Treatment</p>
                     </div>
-                    <div class="IMG">
-                        <img src="Asset/Dead Code/DEADCODEFIX.png" alt="">
+                    <div class="IMGDIVFIX">
+                        <img src="Asset/Divergent/DIVERGENTFIX.png" alt="">
                     </div>
                     <div class="Penjelasan">
                         Kami memakai Extract Class technique untuk mengurangi tanggung jawab class Employee, dimana method/field dari sebuah function di dalam class tersebut di extract dan dibikin class baru. Disini hasilnya ialah class EmployeeProfile dimana dia mengandalkan fungsionalitas dari updateSalary, dan calculateSalary, beserta data Department dan fungsionalitasnya, ada class Birthday service juga untuk mengandalkan fungsionalitasnya BirthdayCelebration. Sehingga EMployee class hanya fokus untuk manage data setiap employee.
