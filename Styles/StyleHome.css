@@ -348,7 +348,35 @@ Header{
     margin-bottom: 30px;
 }
 
+.Section .IMGDIV1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
 
+.Section .IMGDIV1 img{
+    width: 800px;
+    height: 800px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.Section .IMGDIVFIX{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.Section .IMGDIVFIX img{
+    width: 800px;
+    height: 1500px;
+    border-radius: 15px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
 .Section #Nama .Judul{
     font-family: 'Poppins';
     font-size: 40px;
