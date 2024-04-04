@@ -101,7 +101,7 @@ Header{
     margin-top: 50px;
     
     display: flex;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     flex-direction: column;
     font-family: 'Inria Sans';
@@ -120,6 +120,14 @@ Header{
 .Section .Reason_Treatment p{
     font-size: 32px;
     font-weight: 900;
+}
+
+.Section .Problem p{
+    color: red;
+}
+
+.Section #Treatment p{
+    color: rgb(9, 190, 9);
 }
 
 .Section .IMG{
@@ -379,9 +387,14 @@ Header{
 }
 .Section #Nama .Judul{
     font-family: 'Poppins';
-    font-size: 40px;
+    font-size: 62px;
     margin-bottom: 20px;
     font-weight: bold;
+    transition: 0.2s;
+}
+
+.Section #Nama .Judul:hover{
+    color: rgb(13, 119, 195);
 }
 
 .Section .IMGDEAD1{
